@@ -194,7 +194,7 @@
 .otherCourses_container{
     background-color: #E3F1F1;
     width: 100%;
-    height: 400px;
+    height: fit-content;
     padding: 10px 0px;
 }
 .otherCourse_heading{
@@ -272,7 +272,7 @@
     width: 150px;
     justify-content: start;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 .profile_sec div{
     height: 30px;
@@ -289,6 +289,7 @@
 }
 .courseList_mentorSec h4{
     color: #008080;
+    margin-left: 10px;
 }
 .footer_container{
     width: 100%;
@@ -473,11 +474,13 @@
 
     }
     .details{
-        width: 100%;
+        width: 95%;
+        margin: auto;
         height: fit-content;
         display: flex;
         flex-direction: column;
-        padding: 0;
+        gap:5px;
+        padding-left: 8px;
         justify-content: center;
         align-items: center;
     }
@@ -500,8 +503,13 @@
     }
     .otherCourse_heading{
         width: 100%;
-        justify-content: space-around;
-        margin: 0;
+        justify-content: space-between;
+    }
+    .otherCourse_heading h3{
+        margin-left: 10px;
+    }
+    .otherCourse_heading p{
+        margin-right: 10px;
     }
     .courses_lists .courseList_container{
         height: fit-content;

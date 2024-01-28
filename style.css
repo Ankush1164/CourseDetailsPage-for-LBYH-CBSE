@@ -389,7 +389,7 @@
         flex-direction: column-reverse;
         height: fit-content;
         margin-bottom: 5px;
-
+        gap: 20px;
     }
     .details{
         width: 100%;
@@ -403,14 +403,19 @@
     .price{
         margin: auto;
         margin-top: -50px;
+        margin-bottom: 10px;
     }
     .otherCourses_container{
+        margin-top: 10px;
         width: 100%;
         height: fit-content;
+        padding-bottom: 25px;
     }
     .courses_lists{
         width: 95%;
         display: flex;
+        margin-bottom: 25px;
+        margin-top: 10px;
         gap: 5px;
         overflow-x: scroll;
     }
@@ -471,6 +476,7 @@
         flex-direction: column-reverse;
         height: fit-content;
         margin-bottom: 5px;
+        gap: 20px;
 
     }
     .details{
@@ -491,6 +497,7 @@
     .otherCourses_container{
         width: 100%;
         height: fit-content;
+        padding-bottom: 25px;
     }
     .courses_lists{
         width: 95%;

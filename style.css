@@ -92,6 +92,7 @@
 .details_container{
     width: 100%;
     height: fit-content;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -218,6 +219,9 @@
     justify-content: space-between;
     margin: auto;
     overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    width: 0px;
 }
 .courses_lists .courseList_container{
     width: 270px;
